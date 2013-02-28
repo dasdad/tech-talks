@@ -1,0 +1,29 @@
+<head>
+  <title>Chat</title>
+</head>
+
+<body>
+  <h1>Chat</h1>
+  <h2>Magia</h2>
+  <label>
+    Name:
+    <input name="" type="text" id="author" value="" />
+  </label>
+  {{> messages}}
+  {{> new_message}}
+</body>
+
+<template name="messages">
+  <ul>
+    {{#each messages}}
+      <li>
+      <strong>{{author}}</strong>: {{message}}
+      </li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="new_message">
+  <input value="" name="new_message" id="new_message" type="text" class="text" />
+  <input type="submit" value="Say!" id="say" />
+</template>
