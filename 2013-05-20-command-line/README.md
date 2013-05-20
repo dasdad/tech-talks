@@ -50,11 +50,13 @@ vim
 - Steep learning curve. But it's like learning a new language. It sort of makes
   sense with the passing of time.
 - Why use it beyond servers?
+    - Extremely fast and stable.
     - [Mouse free development](http://pragprog.com/book/bhtmux/tmux). Feels
       more productive.
     - One tool to rule them all.
     - Huge and active user base. Specially in communities influenced by Unix
       philosophy such as Ruby.
+    - Lots of plugins and features!
     - A taste: macros.
       Turn:
       ```
@@ -87,3 +89,12 @@ tmux
 - Multiple windows and panes.
 - Vimux for interactive programming.
 - Default configs for tmux aren't the best.
+
+zsh
+---
+
+- Autocorrect.
+- Smarter autocomplete - gets capitalization in folder names right.
+- Simpler to customize.
+- oh-my-zsh.
+    - Themes and plugins.
