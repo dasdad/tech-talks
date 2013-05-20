@@ -3,10 +3,14 @@ Vagrant::Config.run do |config|
   config.vm.box_url = "http://cloud-images.ubuntu.com/quantal/current/quantal-server-cloudimg-vagrant-amd64-disk1.box"
 
   config.vm.define :vm_1 do |vm_1_config|
-    vm_1_config.vm.network :hostonly, '10.0.0.100'
+    vm_1_config.vm.network :hostonly, '10.0.0.101'
   end
 
   config.vm.define :vm_2 do |vm_2_config|
-    vm_2_config.vm.network :hostonly, '10.0.0.101'
+    vm_2_config.vm.network :hostonly, '10.0.0.102'
+  end
+
+  config.vm.define :vm_3 do |vm_3_config|
+    vm_3_config.vm.network :hostonly, '10.0.0.103'
   end
 end
