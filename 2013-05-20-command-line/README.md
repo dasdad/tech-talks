@@ -29,15 +29,61 @@ ssh
 vim
 ---
 
-- Breve histórico.
-- Modos.
-- Edição básica de texto.
-- Motivação de porque usar o Vim 100% do tempo.
+- Brief history.
+    - Vi in 1976.
+        - Visual, in contrast to Ex.
+        - Slow teletypes.
+        - No arrows in keyboard.
+    - Vi iMproved in 1991.
+        - Sane usage in modern computers.
+        - Clean screen on deletion.
+        - Stable, huge installed base.
+- Modes.
+    - Normal.
+    - Insertion.
+    - Visual.
+    - More...
+- Commands.
+    - `:w` for writing.
+    - `:q` for quitting.
+    - `:wq` combining.
+- Steep learning curve. But it's like learning a new language. It sort of makes
+  sense with the passing of time.
+- Why use it beyond servers?
+    - [Mouse free development](http://pragprog.com/book/bhtmux/tmux). Feels
+      more productive.
+    - One tool to rule them all.
+    - Huge and active user base. Specially in communities influenced by Unix
+      philosophy such as Ruby.
+    - A taste: macros.
+      Turn:
+      ```
+      {
+        :banana  => 'uhull',
+        :another => 'aha',
+        :a       => 'nd',
+        :please  => 'stop'
+      }
+      ```
+      into:
+      ```
+      {
+        banana:   'uhull',
+        another:  'aha',
+        a:        'nd',
+        please:   'stop'
+      }
+      ```
+      with: `f:xf Pf=vldj0`.
+    - Spell checking.
+- A piece of advice, default configs suck! Starting using Vim by configuring it!
+  It's a legacy for future generations.
 
 tmux
 ----
 
 - Detach.
-- Múltiplas janelas.
-- Pair programming.
-- Vimux.
+- Remote pair programming.
+- Multiple windows and panes.
+- Vimux for interactive programming.
+- Default configs for tmux aren't the best.
