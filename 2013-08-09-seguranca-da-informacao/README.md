@@ -41,7 +41,7 @@ Soluções
 
 * [Criptografia][11] é mais uma daquelas coisa que são que nem violência. Se
   não estão resolvendo seu problema é porque você não está usando o suficiente.
-  * Examplo: [Cifra de César][12].
+  * Exemplo: [Cifra de César][12].
     * [ROT13][13].
     * Dizem que em _2001 - Uma Odisseia no Espaço_ o nome HAL era uma cifra de
       IBM, porque ela não teria aceitado ceder o nome para o computador do
